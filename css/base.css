@@ -1,0 +1,28 @@
+/*body{width:16rem;margin:0 auto;background-color: #fff;font-size:.6rem;color:#000;}*/
+
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
+body,form,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p{margin:0;padding:0;}
+div,ul,dl,dt,dd,p,h1,h2,h3,h4,h5,h6{zoom:1;}
+body{font-family: PingFangSC-Medium;
+    /*-webkit-user-select:none;*/
+    -webkit-text-size-adjust:none;background-color: #fff;}
+input,select{line-height:normal;vertical-align:middle;}
+textarea{font-size:1em;line-height:1.5em;}
+a{text-decoration:none;color:#000;outline:0;}
+a:visited{text-decoration:none;} a:hover{text-decoration:none;}
+img{border:0;max-width:100%;} li,ul{list-style:none;}
+body{width:16rem;margin:0 auto;background-color: #fff;font-size:.6rem;color:#000;position: relative}
+.hidden{display:none;} .clear{clear:both;} .cl{clear:both;} .zleft{float:left;} .zright{float:right;}
+.zmore{color:#771d0e!important;} .zblock{display:block;} .zred{color:red!important;}
+/*兼容苹果*/
+input{-webkit-appearance:none; /*去除input默认样式*/} input[type='radio']{-webkit-appearance:radio;} input[type='submit'],input[type='reset'],input[type='button'],input{-webkit-appearance:none;}
+/*兼容苹果结束*/
+
+[v-cloak]{
+    display: none;
+}
+
+div{
+    font-size: .6rem;
+    font-weight: bold;
+}
